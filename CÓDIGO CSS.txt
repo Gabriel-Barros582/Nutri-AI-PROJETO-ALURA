@@ -1,0 +1,48 @@
+/* Fundo da página com imagem + overlay escuro */
+body {
+  background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #333;
+}
+
+/* Overlay escuro para melhor contraste */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+  z-index: -1;
+}
+
+/* Container com fundo branco semi-transparente e blur */
+.container-blur {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+  color: #1a202c;
+}
+
+/* Modo escuro ajustado para o container */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+  }
+  body::before {
+    background: rgba(0,0,0,0.7);
+  }
+  .container-blur {
+    background: rgba(17, 24, 39, 0.7);
+    color: #ddd;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  }
+}

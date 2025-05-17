@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nutri.AI - Luca 🍎</title>
+  
+  <!-- Tailwind CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  
+  <!-- AOS Animations CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  
+  <!-- Seu CSS externo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="min-h-screen flex flex-col items-center justify-start p-6 font-sans bg-white dark:bg-gray-900 transition-colors duration-500">
+
+  <div class="container-blur w-full max-w-2xl shadow-xl transition-all duration-500 ease-in-out transform fade-in-up bg-white dark:bg-gray-800 rounded-lg p-6" data-aos="zoom-in">
+    <h1 class="text-2xl font-bold text-green-600 dark:text-green-400 mb-4 text-center">🥗 Nutri.AI - Luca</h1>
+
+    <form id="form" class="mb-4 flex flex-col gap-3">
+      <input id="perfil" type="text" placeholder="Digite seu perfil nutricional..." required
+        class="p-3 rounded-md border dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      <button type="submit"
+        class="bg-green-600 hover:bg-green-700 text-white py-2 rounded-md shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105">
+        Gerar Cardápio
+      </button>
+    </form>
+
+    <div id="resultado" class="hidden text-sm"></div>
+
+    <div id="download-container" class="hidden mt-4 flex flex-col items-start space-y-2">
+      <button id="btnDownload"
+        class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md shadow-md hover:shadow-xl transition">
+        📄 Baixar em PDF
+      </button>
+      <div id="botoes-opcoes" class="hidden flex space-x-2">
+        <button id="btnLimparResposta"
+          class="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-md">🗑 Limpar Resposta</button>
+      </div>
+    </div>
+
+    <div id="historico-container" class="hidden mt-6">
+      <h2 class="text-lg font-semibold mb-2">📜 Histórico de Prompts</h2>
+      <ul id="historico" class="space-y-2 text-sm max-h-40 overflow-y-auto border border-gray-300 dark:border-gray-700 rounded-md p-3"></ul>
+      <button id="limparHistorico"
+        class="mt-3 bg-red-600 hover:bg-red-700 text-white py-1 px-3 rounded-md">🧹 Limpar Histórico</button>
+    </div>
+  </div>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Seu script -->
+  <script src="script.js"></script>
+</body>
+</html>
