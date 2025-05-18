@@ -1,10 +1,9 @@
-# 🍽️ Nutri.AI — Seu Assistente Nutricional com IA
+# 🍽️ Nutri.AI – Seu assistente nutricional com IA
 
-[![Veja o chat em ação](https://img.youtube.com/vi/RkjKxcdUYfE/maxresdefault.jpg)](https://www.youtube.com/watch?v=RkjKxcdUYfE)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Funcionalidades do Nutri.AI](https://raw.githubusercontent.com/Gabriel-Barros582/Nutri-AI-PROJETO-ALURA/main/Captura%20de%20tela%202025-05-17%20205937.png)](https://gabriel-barros582.github.io/Nutri.AI/)
 
 > Chatbot inteligente que gera cardápios personalizados com base no seu perfil nutricional.  
-> Desenvolvido durante a **Imersão Alura + Google Gemini 2025**.
+> Criado durante a **Imersão Alura + Google Gemini 2025**.
 
 ---
 
