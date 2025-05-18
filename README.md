@@ -7,6 +7,19 @@
 
 ---
 
+## 🔎 Sumário
+
+- [🌐 Projeto Online](#-projeto-online)
+- [🎥 Vídeos](#-vídeos)
+- [💡 Motivação](#-motivação)
+- [🧠 Como funciona?](#-como-funciona)
+- [✅ Funcionalidades principais](#-funcionalidades-principais)
+- [🔧 Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [📂 Estrutura do repositório](#-estrutura-do-repositório)
+- [📬 Contato](#-contato)
+- [📝 Licença](#-licença)
+  
+
 ## 🌐 Projeto Online
 
 🔗 [Acesse o Nutri.AI](https://gabriel-barros582.github.io/Nutri.AI/)
@@ -49,14 +62,13 @@ Observamos que muitas famílias têm acesso aos alimentos, mas carecem de orient
 
 ---
 
-## 🔧 Tecnologias utilizadas
+ 🔧 Tecnologias utilizadas
 
-- HTML, CSS (Tailwind CSS)  
-- JavaScript  
-- API Google Gemini  
-- jsPDF (para geração de PDF)  
-- AOS (animações suaves)  
-- GitHub Pages (hospedagem gratuita)  
+- 💻 **Front-end:** HTML, Tailwind CSS, JavaScript  
+- 🤖 **IA:** API Google Gemini  
+- 🧾 **PDF:** jsPDF  
+- ✨ **Animações:** AOS  
+- ☁️ **Hospedagem:** GitHub Pages 
 
 ---
 
@@ -74,8 +86,8 @@ Observamos que muitas famílias têm acesso aos alimentos, mas carecem de orient
 
 ## 📬 Contato
 
-✉️ gabrielbarros1120@gmail.com
-55 (11) 96320-1692
+- ✉️ Email: [gabrielbarros1120@gmail.com](mailto:gabrielbarros1120@gmail.com)  
+- 📱 WhatsApp: [(11) 96320-1692](https://wa.me/5511963201692)  
 
 ---
 
@@ -84,5 +96,7 @@ Observamos que muitas famílias têm acesso aos alimentos, mas carecem de orient
 Este projeto está licenciado sob a Licença MIT — veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
+
+>Projeto desenvolvido com dedicação para transformar alimentação em inclusão, tecnologia em cuidado e IA em impacto social.
 
 > Feito durante a Imersão Alura + Google Gemini 2025.
