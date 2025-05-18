@@ -1,7 +1,6 @@
 # 🍽️ Nutri.AI — Seu Assistente Nutricional com IA
 
-![Veja o chat em ação](./assets/captura-nutri-ai.png)
-
+[![Veja o chat em ação](https://img.youtube.com/vi/RkjKxcdUYfE/maxresdefault.jpg)](https://www.youtube.com/watch?v=RkjKxcdUYfE)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Chatbot inteligente que gera cardápios personalizados com base no seu perfil nutricional.  
@@ -17,10 +16,10 @@
 
 ## 🎥 Vídeos
 
-| Título                     | Link                                                              |
-|---------------------------|-------------------------------------------------------------------|
-| Apresentação Institucional | [▶️ Assistir no YouTube](https://www.youtube.com/watch?v=BrWYN7glx0g) |
-| Demonstração Técnica       | [▶️ Ver em ação](https://www.youtube.com/watch?v=RkjKxcdUYfE)          |
+| Título                      | Link                                               |
+|----------------------------|----------------------------------------------------|
+| Apresentação Institucional  | [▶️ Assistir no YouTube](https://www.youtube.com/watch?v=BrWYN7glx0g) |
+| Demonstração Técnica        | [▶️ Ver em ação](https://www.youtube.com/watch?v=RkjKxcdUYfE)          |
 
 ---
 
@@ -64,11 +63,11 @@ Observamos que muitas famílias têm acesso aos alimentos, mas carecem de orient
 
 ## 📂 Estrutura do repositório
 
-| Arquivo        | Descrição                                |
-|----------------|-------------------------------------------|
-| `index.html`   | Código principal da interface              |
-| `style.css`    | Estilos personalizados                     |
-| `script.js`    | Lógica do chatbot e geração de PDF         |
+| Arquivo                    | Descrição                                      |
+|----------------------------|------------------------------------------------|
+| `index.html`               | Código principal da interface                   |
+| `style.css`                | Estilos personalizados                           |
+| `script.js`                | Lógica do chatbot e geração de PDF              |
 
 > *Os arquivos estão disponíveis em `.txt` para visualização, mas o projeto utiliza as extensões reais.*
 
@@ -76,8 +75,8 @@ Observamos que muitas famílias têm acesso aos alimentos, mas carecem de orient
 
 ## 📬 Contato
 
-✉️ gabriel@email.com  
-🔗 [LinkedIn](https://linkedin.com/in/seuperfil)
+✉️ gabrielbarros1120@gmail.com
+55 (11) 96320-1692
 
 ---
 
@@ -87,4 +86,4 @@ Este projeto está licenciado sob a Licença MIT — veja o arquivo [LICENSE](LI
 
 ---
 
-> Feito com ❤️ durante a Imersão Alura + Google Gemini 2025.
+> Feito durante a Imersão Alura + Google Gemini 2025.
